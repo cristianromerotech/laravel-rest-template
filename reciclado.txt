@@ -1,0 +1,10 @@
+ composer create-project laravel/laravel example-app
+php artisan make:controller TodosController
+php artisan make:model Category -m
+php artisan migrate:status
+php artisan migrate:rollback
+php artisan migrate
+php artisan route:list
+php artisan make:controller CategoriesController --resource
+ mysql -u root -p
+ php artisan make:model Todo -m
