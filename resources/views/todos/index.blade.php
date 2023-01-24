@@ -12,9 +12,9 @@
                 <h6 class="alert alert-danger">{{ $message }}</h6>
             @enderror
             <div class="mb-3">
-                <label for="title" class="form-label">Titulo de la tarea</label>
+                <label for="title" class="form-label">Title todo</label>
                 <input type="text" class="form-control" id="title" name="title">
-                <div id="emailHelp" class="form-text">Escribi el titulo de la tarea que deseas</div>
+                <div id="emailHelp" class="form-text">Write the todo that you want</div>
             </div>
 
 
